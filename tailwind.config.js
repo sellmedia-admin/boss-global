@@ -6,6 +6,9 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      outfit: ["Outfit", "sans-serif"],
+    },
     extend: {
       colors: {
 				primary: "#326B6B",
@@ -38,10 +41,12 @@ module.exports = {
         45: "45px",
         85: "85px",
         95: "95px",
+        99: "99px",
         160: "160px",
         170: "170px",
         188: "188px",
         200: "200px",
+        285: "285px",
       },
       height: {
         19: "19px",
@@ -49,21 +54,36 @@ module.exports = {
         45: "45px",
         85: "85px",
         95: "95px",
+        99: "99px",
         160: "160px",
         170: "170px",
         188: "188px",
         200: "200px",
+        285: "285px",
+        493: "493px",
+        738: "738px",
       },
       maxWidth: {
 				default: "1078px",
         994: "994px",
+        760: "760px",
+        671: "671px",
+        413: "413px",
+        328: "328px",
 			},
-      backgroundImage: {
-        heroBg: "linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/jpg/bg/hero-bg.jpg)",
+      backgroundImage: (theme) => ({
+        heroBg: "linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/jpg/bg/hero-bg-boss-global.jpg)",
+        ourCompany: 'url(/images/jpg/bg/our-company-boss-global.jpg)',
+        productEntity: 'url(/images/jpg/bg/product-entity-boss-global.jpg)',
+        pressRoom: 'url(/images/jpg/bg/press-room-boss-global.jpg)',
+        mediaTech: 'url(/images/jpg/bg/media-tech-boss-global.jpg)',
+        globalConnect: 'url(/images/jpg/bg/global-connect-boss-global.jpg)',
+        globe: 'url(/images/png/globe.png)',
+        pattern: 'url(/images/png/boss-pattern.png)',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      }),
     },
   },
   plugins: [],
