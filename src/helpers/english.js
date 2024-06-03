@@ -20,5 +20,8 @@ export const english = {
         section3Title: "Unleash your ideas to the world around you",
         section3Subtitle: "From a small struggling businesses in a near village to an enterprise solution giants, we partner to make sense of your mission, vision and goals.",
         section3BtnTitle: "Get in touch with us",
+
+        section4Title: "Your partnership with BOSS Global",
+        section4Subtitle: "From a small struggling businesses in a near village to an enterprise solution giants, we partner to make sense of your mission, vision and goals.",
     }
 }

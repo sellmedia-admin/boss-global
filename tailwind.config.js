@@ -60,6 +60,7 @@ module.exports = {
         188: "188px",
         200: "200px",
         285: "285px",
+        483: "483px",
         493: "493px",
         738: "738px",
       },
@@ -69,6 +70,7 @@ module.exports = {
         760: "760px",
         671: "671px",
         413: "413px",
+        403: "403px",
         328: "328px",
 			},
       backgroundImage: (theme) => ({
@@ -80,6 +82,7 @@ module.exports = {
         globalConnect: 'url(/images/jpg/bg/global-connect-boss-global.jpg)',
         globe: 'url(/images/png/globe.png)',
         pattern: 'url(/images/png/boss-pattern.png)',
+        partnership: 'url(/images/jpg/bg/partnership-boss-global.jpg)',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

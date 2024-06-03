@@ -15,7 +15,7 @@ const UnleashIdeas = () => {
                     <ButtonLink link='/' title={english.landing.section3BtnTitle} className='bg-primary text-white font-normal mt-7' />
                 </div>
             </div>
-            <div className='col-span-1 bg-globe bg-contain bg-center bg-no-repeat h-full w-full flex justify-center'>
+            <div className='col-span-1 bg-globe bg-contain bg-center bg-no-repeat h-full w-full flex justify-center pt-5'>
                 <Image src={constants.unleash} alt='boss global' />
             </div>
         </div>

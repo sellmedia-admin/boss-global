@@ -1,5 +1,6 @@
 import DrivingInnovation from "@/components/Landing/DrivingInnovation";
 import HeroSection from "@/components/Landing/Hero";
+import Partnership from "@/components/Landing/Partnership";
 import UnleashIdeas from "@/components/Landing/UnleashIdeas";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <HeroSection />
         <DrivingInnovation />
         <UnleashIdeas />
+        <Partnership />
       </main>
     </div>
   );
