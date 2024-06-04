@@ -93,4 +93,7 @@ ul.nav li.active>p {
   .hero_section {
     height: 100% !important;
   }
+  .driving-innovate {
+    height: 450px !important;
+  }
 }

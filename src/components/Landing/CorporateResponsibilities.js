@@ -7,7 +7,7 @@ const CorporateResponsibilities = () => {
         <h5 className='text-[28px] md:text-[37px] font-semibold'>{english.landing.section6Title}</h5>
         <p className='text-[15px] md:text-lg'>{english.landing.section6Subtitle}</p>
       </div>
-      <div className='grid gap-3 grid-cols-1 md:grid-cols-3' data-aos="fade-up" data-aos-duration="1000">
+      <div className='grid gap-4 grid-cols-1 md:grid-cols-3' data-aos="fade-up" data-aos-duration="1000">
             <div className='col-span-1 bg-ecoFriendly bg-cover bg-center bg-no-repeat md:h-490 h-285 flex items-end'>
                 <div className='bg-secondary text-black text-lg md:text-[22px] w-full md:py-6 py-4 flex items-center px-5 md:px-8'>
                     <div>
