@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const UnleashIdeas = () => {
   return (
-    <div className='bg-pattern bg-cover bg-center bg-no-repeat w-full pt-20 md:pt-34'>
+    <div className='bg-pattern bg-cover bg-center bg-no-repeat w-full pt-20 md:pt-34' data-aos="fade-up" data-aos-duration="700">
       <div className='max-w-default mx-auto w-full px-4'>
         <div className='grid gap-4 content-center items-center grid-cols-1 md:grid-cols-2'>
             <div className='col-span-1'>
