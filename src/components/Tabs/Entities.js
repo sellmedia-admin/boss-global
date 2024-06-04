@@ -1,4 +1,3 @@
-import React from 'react'
 import Tabs from './Tab3'
 
 const Entities = () => {

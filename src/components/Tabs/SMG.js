@@ -1,7 +1,6 @@
 import { constants } from '@/helpers/constants'
 import { english } from '@/helpers/english'
 import Image from 'next/image'
-import React from 'react'
 import ButtonLink from '../elements/forms/ButtonLink2'
 
 const SMG = () => {
