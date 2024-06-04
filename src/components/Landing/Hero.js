@@ -17,13 +17,13 @@ const HeroSection = () => {
         <div className='max-w-default mx-auto w-full px-4 -mb-10'>
             <div className='grid gap-3 grid-cols-1 md:grid-cols-3'>
                 <div className='col-span-1 bg-ourCompany bg-cover bg-center bg-no-repeat h-285 flex items-end'>
-                    <div className='bg-secondary text-primary text-lg md:text-[22px] w-full h-99 flex items-center pl-5'>{english.landing.heroCard1}</div>
+                    <div className='bg-secondary text-primary text-lg md:text-[22px] w-full py-4 flex items-center pl-5'>{english.landing.heroCard1}</div>
                 </div>
                 <div className='col-span-1 bg-productEntity bg-cover bg-center bg-no-repeat h-285 flex items-end'>
-                    <div className='bg-secondary text-primary text-lg md:text-[22px] w-full h-99 flex items-center pl-5'>{english.landing.heroCard2}</div>
+                    <div className='bg-secondary text-primary text-lg md:text-[22px] w-full py-4 flex items-center pl-5'>{english.landing.heroCard2}</div>
                 </div>
                 <div className='col-span-1 bg-pressRoom bg-cover bg-center bg-no-repeat h-285 flex items-end'>
-                    <div className='bg-secondary text-primary text-lg md:text-[22px] w-full h-99 flex items-center pl-5'>{english.landing.heroCard3}</div>
+                    <div className='bg-secondary text-primary text-lg md:text-[22px] w-full py-4 flex items-center pl-5'>{english.landing.heroCard3}</div>
                 </div>
             </div>
         </div>

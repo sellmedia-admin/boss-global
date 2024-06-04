@@ -5,7 +5,7 @@ import "../components/Navigation/nav.css"
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Boss Global",
+  title: "Boss Global | Home",
   description: "We put people at the forefront of our innovation and solutions",
 };
 
